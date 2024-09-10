@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+
+}
+
+html {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+
+}
+
+main {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    width: 375px;
+}
+
+.first-article {
+    background-color: hsl(252, 100%, 67%);
+    color: white;
+}
+
+.second-article {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    color: black;
+}
+
+.second-article a {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.value-1, .value-2, .value-3, .value-4 {
+    display: flex;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    justify-content: space-between;
+}
+.value-1 {
+    background-color: hsl(0, 100%, 97%, 1);
+}
+
+.value-2 {
+    background-color: hsl(39, 100%, 97%, 1);
+}
+
+.value-3 {
+    background-color: hsl(166, 100%, 97%, 1);
+}
+
+.value-4 {
+    background-color: hsl(234, 85%, 97%, 1);
+}
+
+.red {
+    color: hsl(0, 100%, 67%);
+}
+
+.yellow {
+    color: hsl(39, 100%, 56%);
+}
+
+.green {
+    color: hsl(166, 100%, 37%);
+}
+
+.blue {
+    color: hsl(234, 85%, 45%);
+}
+
+
+
+
